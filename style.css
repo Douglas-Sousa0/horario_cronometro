@@ -6,6 +6,8 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+
+    --roxo: #5e40ca36
 }
 
 .container{
@@ -40,7 +42,7 @@ h2{
     margin-top: 20px;
     width: 300px;
     height: 300px;
-    background-color: #5e40ca36;
+    background-color: var(--roxo);
 
     border-radius: 12px;
 
@@ -48,4 +50,16 @@ h2{
     padding: 15px;
 
     overflow-y: auto;
+}
+
+.botoes{
+    background-color: var(--roxo);
+    color: #fff;
+
+    border: none;
+    border-radius: 15px;
+
+    padding: 5px 20px;
+
+    cursor: pointer;
 }
